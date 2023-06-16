@@ -1,0 +1,38 @@
+.gradient-background {
+  background: linear-gradient(300deg, #a0e4cb9a, rgb(222, 226, 230), #0d4b928f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#heroimg {
+  height: 25rem;
+  border-radius: 4%;
+  border: 2px solid rgb(222, 226, 230);
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.C_font_family {
+  font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+  background-color: rgba(13, 109, 253, 0.068);
+}
